@@ -15,14 +15,15 @@ body {
     padding-top: 100px;
 }
 .heading-box-container{
-    /* border: 5px solid #fff; */
     height: 400px;
     width: 70%;
     margin: 0px auto;
     text-align: center;
-    padding: 30px 1px;
+    padding-left: 1px;
+    padding-top: 70px;
+    padding-bottom: 5px;
+    padding-right: 1px;
     background-color: rgba(0,0,0,0.5);
-    /* border-radius: 0 0 0 100px; */
 }
 .head-box-container-title{
     font-size: 37px;
@@ -37,7 +38,7 @@ body {
     display: block;
 }
 .head-box{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     display: block;
 }
 .head-box-input-group{
@@ -47,6 +48,7 @@ body {
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     background-color:rgba(0,0,0,0.5);
 }
 .head-box-input{
@@ -56,9 +58,6 @@ body {
     font-size: 17px;
     padding: 10px 50px;
 }
-/* .head-box-input:hover{
-    border: none !important;
-} */
 .head-box-button{
     background-color: orange;
     color: #fff;
@@ -73,7 +72,7 @@ body {
 .main-container{
     display: flex;
     justify-content: space-evenly;
-    /* border: 1px solid black; */
+    flex-wrap: wrap;
     height: 170px;
     margin-top: 20px;
     align-items: end;
@@ -128,6 +127,7 @@ body {
     margin-bottom: 100px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .team-card{
     width: 200px;
@@ -138,7 +138,7 @@ body {
 .team-card:hover{
     width: 200px;
     text-align: center;
-    box-shadow: 0px 0px 10px 0px rgb(176, 165, 165);
+    box-shadow: 0px 0px 10px 0.5px rgb(212, 239, 241);
 }
 .about-caed-img{
     height: 130px;
@@ -162,6 +162,7 @@ body {
 .about-card-icon-container{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     height: 50px;
     margin-top: 25px;
 }
@@ -174,4 +175,9 @@ body {
 .about-card-icons{
     height: 15px;
     margin-top: 6px;
+}
+.marquee-one{
+    margin-top: -375px;
+     width: 100%;
+     height: 700px;
 }
