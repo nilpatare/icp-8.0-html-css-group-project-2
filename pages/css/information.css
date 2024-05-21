@@ -13,3 +13,22 @@
 .container{
     background-color: bisque;
 }
+
+.item {
+    background-color: #b1dddf;
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px white;
+  }
+  .box{
+    height: 380px;
+    width: 400px;
+    display: flex;
+    background-color: #0cc0df;
+    padding: 5px;
+    
+  }
