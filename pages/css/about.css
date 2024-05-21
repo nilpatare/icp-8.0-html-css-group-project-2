@@ -12,7 +12,67 @@ body {
 .container-cover{
     background-color: rgba(0,0,0,0.7);
     height: 650px;
+    padding-top: 100px;
 }
+.heading-box-container{
+    border: 5px solid #fff;
+    height: 400px;
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 50px;
+}
+.head-box-container-title{
+    font-size: 37px;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+}
+.head-box-container-sub-title{
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+}
+.head-box{
+    margin-bottom: 30px;
+    display: block;
+}
+.head-box-input-group{
+    border: 1px solid #fff;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(73, 71, 71);
+}
+.head-box-input{
+    background-color: rgb(73, 71, 71) ;
+    border: none;
+    color:  rgb(229, 219, 219);
+    font-size: 17px;
+    padding: 10px 50px;
+}
+.head-box-input:hover{
+    border: none !important;
+}
+.head-box-button{
+    background-color: orange;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    padding: 11px 22px;
+    border-radius: 5px;
+}
+.head-box-airline{
+    margin-top: -100px;
+}
+
+
+
+
+
 .section-header{
     height: 130px;
     margin-top: 100px;
