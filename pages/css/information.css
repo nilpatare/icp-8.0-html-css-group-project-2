@@ -11,7 +11,7 @@
     padding: 15px;
 }
 .container{
-    background-color: bisque;
+    background-color: white;
 }
 
 .item {
@@ -28,7 +28,8 @@
     height: 380px;
     width: 400px;
     display: flex;
-    background-color: #0cc0df;
+    background-color: white;
     padding: 5px;
+    border-radius: 5px;
     
   }
