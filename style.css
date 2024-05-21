@@ -31,11 +31,10 @@ body{
 
 .Rform input {
     font-size: 16px;
-    padding: 15px 10px;
+    padding: 10px 15px;
     width: 100%;
     border: 0;
     border-radius: 4px;
-    outline: none;
 }
 
 .Rform button {
@@ -50,8 +49,7 @@ body{
 }
 
 .Rform button:hover{
-    color:rgb(237, 42, 42);
-    border-radius: 20px;
+    color:rgb(226, 77, 22);
+    cursor: pointer;
     transition: 1s;
-    tr;
 }
