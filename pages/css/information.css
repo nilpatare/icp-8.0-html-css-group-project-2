@@ -1,0 +1,15 @@
+.body{
+    margin: 0%;
+    background-color: aliceblue;
+}
+.container{
+    background-color:rgb(255, 196, 219);
+    margin: 0;
+    height: 850px;
+    width: 1300px;
+    text-align: center;
+    padding: 15px;
+}
+.container{
+    background-color: bisque;
+}
