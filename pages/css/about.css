@@ -5,7 +5,7 @@ body {
 }
 .container-about {
     height: 650px;
-    background-image: url(./img-about/airline.jpg);
+    background-image: url(./../../image/about-image/airline.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
