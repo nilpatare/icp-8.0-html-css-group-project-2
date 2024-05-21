@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: arial;
+    background-color: #fff;
+}
+.container-about {
+    height: 650px;
+    background-image: url(./img-about/airline.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.container-cover{
+    background-color: rgba(0,0,0,0.7);
+    height: 650px;
+}
