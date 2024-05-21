@@ -30,3 +30,58 @@ body {
     display: block;
     color: rgb(99, 98, 98);
 }
+.card-container{
+    height: 300px;
+    width: 95%;
+    margin-left:auto ;
+    margin-right: auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.team-card{
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+   
+}
+.team-card:hover{
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgb(176, 165, 165);
+}
+.about-caed-img{
+    height: 130px;
+    width: 130px;
+    border-radius: 130px;
+    margin: 10px auto;
+    display: block;
+}
+.card-title-name{
+    font-weight: bold;
+    font-size: 23px;
+    display: block;
+}
+.card-sub-title-name{
+    color: rgb(99, 98, 98);
+    font-weight: 400;
+    font-size: 15px;
+    margin-top:10px ;
+    display: block;
+}
+.about-card-icon-container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    margin-top: 25px;
+}
+.card-icon{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(246, 243, 243);
+    border-radius: 5px;
+}
+.about-card-icons{
+    height: 15px;
+    margin-top: 6px;
+}
