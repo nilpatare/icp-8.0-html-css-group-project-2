@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: pink;
+    background-image: url(http://hdqwalls.com/download/airplane-dawn-dusk-flight-sunrise-sky-24-1920x1080.jpg);
     background-size: cover;
     color: #171616;
 }
@@ -14,41 +14,44 @@ body{
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 200px;
+    width: 350px;
 }
 
-.Rform{
-    font-size: 20px;
+.Rform h1 {
+    font-size: 30px;
     text-align: center;
     text-transform: uppercase;
     margin: 40px 0;
 }
 
-.Rform{
+.Rform p {
     font-size: 20px;
     margin: 15px 0;
 }
 
-.Rform{
+.Rform input {
     font-size: 16px;
     padding: 15px 10px;
     width: 100%;
     border: 0;
-    border-radius: 5px;
+    border-radius: 4px;
     outline: none;
 }
 
-.Rform{
+.Rform button {
     font-size: 18px;
     font-weight: bold;
     margin: 20px 0;
     padding: 10px 15px;
     width: 50%;
     border: 0;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #fff9;
 }
 
 .Rform button:hover{
-    color: red;
+    color:rgb(237, 42, 42);
+    border-radius: 20px;
+    transition: 1s;
+    tr;
 }
