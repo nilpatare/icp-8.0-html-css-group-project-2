@@ -85,6 +85,8 @@ body{
     height: 50px;
     width: 120px;
     margin: 40px 5px;
+    background-color: rgb(37, 72,142);
+    border: none;
 }
 .icon{
     height: 20px;
@@ -93,13 +95,13 @@ body{
     display: flex;
     flex-direction: column;
    text-align: center;
-   justify-content: center;
-   margin: 5px 180px;
+   justify-content: start;
+   margin: 0px 180px;
 }
 .right-mains{
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 15px;
 }
 .right-mains h3{
     margin: 2px 0px;
