@@ -1,54 +1,9 @@
 body {
     margin: 0;
-    font-family: arial;
+    font-family: Arial, sans-serif;
     background-color: #fff;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-}
-
-.navbar {
-    background-color: rgb(37, 72, 142);
-    overflow: hidden;
-}
-
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 3;
-    display: flex;
-    justify-content: left;
-
-}
-
-.navbar ul li {
-    flex: 1;
-    text-align: center;
-
-}
-
-.navbar ul li a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 14px 20px;
-    font-size: 18px;
-}
-
-.navbar ul li a:hover {
-    background-color: #6c82ca;
-    color: black;
-}
-
-h1 {
-    text-align: left;
-    margin-top: 20px;
-    margin-left: 30px;
-}
 
 
 .container-about {
@@ -261,6 +216,7 @@ h1 {
     height: 700px;
 }
 
+
 @media screen and (max-width:768px) {
     .container-about {
         height: 220px;
@@ -323,7 +279,6 @@ h1 {
         color: rgb(229, 219, 219);
         font-size: 7px;
         padding: 1px 5px;
-        border: 1px solid red;
         width: 50px;
     }
 
