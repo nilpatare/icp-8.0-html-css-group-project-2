@@ -2,6 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-color: #f2f2f2;
 }
 .navbar {
     background-color: rgb(37, 72, 142);
@@ -316,7 +317,9 @@ footer{
         cursor: pointer;
     }
 }
-
+.main-img{
+    width: 100%;
+}
 .get-in-touch{
     font-weight: bolder;
     margin-top: 70px;
@@ -379,6 +382,13 @@ footer{
     margin: 40px 5px;
     background-color: rgb(37, 72,142);
     border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+}
+.btn :hover{
+    box-shadow: 0 0 5px 2px;
+    transition: 1s;
 }
 .icon{
     height: 20px;
