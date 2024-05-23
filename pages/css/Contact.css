@@ -386,10 +386,7 @@ footer{
     cursor: pointer;
     color: white;
 }
-.btn :hover{
-    box-shadow: 0 0 5px 2px;
-    transition: 1s;
-}
+
 .icon{
     height: 20px;
 }
