@@ -83,7 +83,38 @@ h1 {
         margin-left: 20px;
         font-size: 24px;
     }
-}/* footer start */
+}
+/* registration start */
+body{
+    background-image: url(https://wallpapercave.com/wp/wp10476726.jpg);
+    background-repeat: background-imageno-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: left;
+    padding: 50px 80px 90px 40px;
+}
+button{ 
+            color:#fff;
+            padding: 8px 22px;
+            border-radius: 6px;
+            background:rgb(16, 221, 16);
+            transition: all 0.2s ease;
+        }
+
+input{
+    margin: 5px 0px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button:hover{
+    cursor: pointer;
+    color: tomato;
+}
+
+/* footer start */
 .copy {
     padding-top: 50px;
     text-align: center;
@@ -186,38 +217,4 @@ footer{
 .footer-address-title:hover{
     color: gold;
     cursor: pointer;
-}
-/* registration start */
-body{
-    background-image: url(register1.jpg);
-    background-repeat: background-imageno-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    display: flex;
-    justify-content: left;
-    padding: 50px 80px 90px 40px;
-}
-button{
-            
-            color:#fff;
-            padding: 8px 22px;
-            border-radius: 6px;
-            background:rgb(16, 221, 16);
-            transition: all 0.2s ease;
-        }
- button1{
-    
-            
-            color:#fff;
-            padding: 8px 22px;
-            border-radius: 6px;
-            background:rgb(13, 99, 180);
-            transition: all 0.2s ease;
-        }
 
-input{
-    margin: 5px 0px;
-    height: 35px;
-    padding: 7px;
-    padding: 20px;
-}
