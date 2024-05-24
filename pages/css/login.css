@@ -50,7 +50,7 @@ body {
 }
 
 .login-container {
-    background-color: #fff;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
     padding: 150px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -136,7 +136,7 @@ footer{
 
 .footer ul li a {
     display: block;
-    color: #fbf8f8;
+    color: #f7f6f6;
     text-decoration: none;
     padding: 6px 20px;
     font-size: 15px;
@@ -191,3 +191,152 @@ footer{
     color: gold;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .login-container {
+        padding: 50px;
+    }
+
+    .login-container input[type="text"],
+    .login-container input[type="password"],
+    .login-container input[type="submit"] {
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px){
+    .copy {
+        padding-top: 25px;
+        text-align: center;
+        width: 100%;
+        height: 25px;
+        background-color: rgb(37, 72, 142);
+        color: white;
+        font-size: 14px;
+    }
+    .copy:hover{
+        color: gold;
+        cursor: pointer;
+    }
+    footer{
+        background-color: rgb(37, 72, 142);
+        height:fit-content;
+        padding: 20px 5px;
+        margin-top: 100px;
+        /* border: 5px solid red; */
+    }
+    .footer-container{
+        display:flex;
+        justify-content: space-around;
+        flex-wrap:wrap;
+    }
+    .footer-box{
+        border-bottom: 2px solid goldenrod;
+        height: 200px;
+        width: 300px;
+        color: #fff;
+        padding: 10px 10px;
+        text-align: justify;
+    }
+    
+    .footer ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        flex-wrap: wrap;
+    
+    }
+    
+    .footer ul li {
+        flex: 1;
+        text-align: start;
+    
+    }
+    
+    .footer ul li a {
+        display: block;
+        color: #fbf8f8;
+        text-decoration: none;
+        padding: 6px 20px;
+        font-size: 10px;
+    }
+    
+    .footer ul li a:hover {
+        color: gold;
+    }
+    .footer-info{
+        display: block;
+        font-size: 10px;
+        padding: 10px 2px;
+    }
+    
+    .footer-info:hover{
+        color: gold;
+        cursor: pointer;
+    }
+    .logo-icon{
+        height: 35px;
+        width: 35px;
+        border-radius: 80px;
+        background-color: #fbf8f8;
+        padding: 10px;
+    }
+    .footer-title{
+        font-size: 14px ;
+        font-weight: bold;
+        color: #fff;
+        padding-bottom: 20px;
+        display: block;
+    }
+    .footer-title:hover{
+        color: gold;
+        cursor: pointer;
+    }
+    .footer-add-container{
+        margin-left: 40px;
+    }
+    .footer-address{
+        display: block;
+        color: #fbf8f8;
+        font-size: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 50px;
+    }
+    .footer-address:hover{
+        color: gold;
+        cursor: pointer;
+    }
+    .footer-address-title{
+        display: block;
+        color: #fff;
+        font-weight: bold;
+        font-size: 11px;
+    }
+    .footer-address-title:hover{
+        color: gold;
+        cursor: pointer;
+    }
+}
+
+/* footer end */
+
+
+
