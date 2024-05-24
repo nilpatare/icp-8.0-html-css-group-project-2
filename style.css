@@ -187,3 +187,37 @@ footer{
     color: gold;
     cursor: pointer;
 }
+/* registration start */
+body{
+    background-image: url(register1.jpg);
+    background-repeat: background-imageno-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: left;
+    padding: 50px 80px 90px 40px;
+}
+button{
+            
+            color:#fff;
+            padding: 8px 22px;
+            border-radius: 6px;
+            background:rgb(16, 221, 16);
+            transition: all 0.2s ease;
+        }
+ button1{
+    
+            
+            color:#fff;
+            padding: 8px 22px;
+            border-radius: 6px;
+            background:rgb(13, 99, 180);
+            transition: all 0.2s ease;
+        }
+
+input{
+    margin: 5px 0px;
+    height: 35px;
+    padding: 7px;
+    padding: 20px;
+}
