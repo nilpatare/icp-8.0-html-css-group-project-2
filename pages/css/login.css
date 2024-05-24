@@ -50,7 +50,7 @@ body {
 }
 
 .login-container {
-    background-color: #fff;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
     padding: 150px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -136,7 +136,7 @@ footer{
 
 .footer ul li a {
     display: block;
-    color: #fbf8f8;
+    color: #f7f6f6;
     text-decoration: none;
     padding: 6px 20px;
     font-size: 15px;
